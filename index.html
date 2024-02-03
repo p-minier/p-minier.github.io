@@ -4,35 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Pierre Minier - Page d'Accueil</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>Pierre Minier</title>
 </head>
 <body>
 
     <header class="header-container">
         <div class="logo">
-            <img src="labo.svg" alt="Laboratoire IMS" width="100" height="100">
+            <a target="_blank" href="https://www.ims-bordeaux.fr">
+                <img src="labo.svg" alt="Laboratoire IMS" width="100" height="100">
+            </a>
         </div>
         <div class="header-text">
             <h1>Pierre Minier</h1>
             <p>Doctorant en Signal et Image</p>
         </div>
         <div class="logo">
-            <img src="universite.svg" alt="Université de Bordeaux" width="200" height="100">
+            <a target="_blank" href="https://doctorat.u-bordeaux.fr/avant-le-doctorat/les-ecoles-doctorales/SPI">
+                <img src="universite.svg" alt="Université de Bordeaux" width="200" height="100">
+            </a>
         </div>
     </header>
     <nav>
-        <a href="#about">Présentation</a>
-        <a href="#research">Mes recherches</a>
-        <a href="#works">Travaux réalisés</a>
-        <a href="#contact">Contact</a>
+        <a href="#about" data-hover-text="Présentation">Présentation</a>
+        <a href="#research" data-hover-text="Recherches">Recherches</a>
+        <a href="#works" data-hover-text="Travaux">Travaux</a>
+        <a href="#curiosity" data-hover-text="Curiosités">Curiosités</a>
+        <a href="#contact" data-hover-text="Contact">Contact</a>
     </nav>
 
     <section id="about">
         <h2>🏡 Présentation 🏡</h2>
         <p>
             Bienvenue sur ma page personnelle ! Depuis octobre 2023, je suis
-            doctorant à l'Université de Bordeaux au sein du
-            <a target="_blank" href="https://www.ims-bordeaux.fr">laboratoire IMS</a> où je suis encadré par  <a target="_blank" href="http://giovannelli.free.fr">Jean-François Giovannelli</a> et <a target="_blank" href="https://pro.orieux.fr/">François Orieux</a>.
+            doctorant à l'Université de Bordeaux au sein du laboratoire IMS où je suis encadré par  <a target="_blank" href="http://giovannelli.free.fr">Jean-François Giovannelli</a> et <a target="_blank" href="https://pro.orieux.fr/">François Orieux</a>.
             <br>
             Mon sujet de thèse est le suivant: <i>Déconvolution pour l'imagerie
             à haute résolution. Application en astronomie.</i>
@@ -118,7 +123,7 @@
     </section>
 
     <footer>
-        <p>&copy Pierre Minier. Dernière Maj le 16/01/2024.</p>
+        <p>Crédit photo: Andromeda Galaxy Imaged by Herschel, Planck, IRAS, COBE. NASA ID: PIA25163.</p>
     </footer>
 
 </body>
