@@ -1341,6 +1341,22 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .avatar-box img { width: 120px; }
 
+  .avatar-box img:hover {
+      animation: rotateInfinitely 4s infinite linear;
+  }
+
+  @keyframes rotateInfinitely {
+      0% {
+          transform: rotate(0deg);
+      }
+      10% {
+          transform: rotate(180deg);
+      }
+      100% {
+          transform: rotate(360deg);
+      }
+  }
+
   .info-content .name { margin-bottom: 15px; }
 
   .info-content .title { padding: 5px 18px; }
