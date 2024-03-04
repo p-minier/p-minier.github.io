@@ -1,133 +1,708 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <title>Pierre Minier</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
-    <header class="header-container">
-        <div class="logo">
-            <a target="_blank" href="https://www.ims-bordeaux.fr">
-                <img src="labo.svg" alt="Laboratoire IMS" width="100" height="100">
-            </a>
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/moi.jpg" alt="Pierre Minier" width="80" style="border-radius: 20%;">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Pierre Minier">Pierre Minier</h1>
+
+          <p class="title">Doctorant en traitement <br> du signal et de l'image</p>
         </div>
-        <div class="header-text">
-            <h1>Pierre Minier</h1>
-            <p>Doctorant en Signal et Image</p>
-        </div>
-        <div class="logo">
-            <a target="_blank" href="https://doctorat.u-bordeaux.fr/avant-le-doctorat/les-ecoles-doctorales/SPI">
-                <img src="universite.svg" alt="Université de Bordeaux" width="200" height="100">
-            </a>
-        </div>
-    </header>
-    <nav>
-        <a href="#about" data-hover-text="Présentation">Présentation</a>
-        <a href="#research" data-hover-text="Recherches">Recherches</a>
-        <a href="#works" data-hover-text="Travaux">Travaux</a>
-        <a href="#curiosity" data-hover-text="Curiosités">Curiosités</a>
-        <a href="#contact" data-hover-text="Contact">Contact</a>
-    </nav>
 
-    <section id="about">
-        <h2>🏡 Présentation 🏡</h2>
-        <p>
-            Bienvenue sur ma page personnelle ! Depuis octobre 2023, je suis
-            doctorant à l'Université de Bordeaux au sein du laboratoire IMS où je suis encadré par  <a target="_blank" href="http://giovannelli.free.fr">Jean-François Giovannelli</a> et <a target="_blank" href="https://pro.orieux.fr/">François Orieux</a>.
-            <br>
-            Mon sujet de thèse est le suivant: <i>Déconvolution pour l'imagerie
-            à haute résolution. Application en astronomie.</i>
-            <br>
-            Mots clefs: problèmes inverses, approche bayésienne, haute résolution, contrainte de positivité, astronomie.
-        </p>
-        <p>
-            Avant d'en arriver là, j'ai suivi une classe préparatoire au <a target="_blank" href="https://montaigne-bordeaux.fr/prepas">lycée Montaigne</a> de Bordeaux en Mathématiques
-            et Sciences Physiques entre 2018 et 2020. Puis j'ai intégré le <a target="_blank" href="https://enseirb-matmeca.bordeaux-inp.fr/fr/telecommunications">département télécommunications</a>
-            de l'ENSEIRB-MATMECA, et suivi <a target="_blank" href="https://sciences-ingenieur.u-bordeaux.fr/Nos-formations/Master-Ingenierie-des-Systemes-Complexes-ISC/Parcours-Ingenierie-des-Systemes-pour-l-Image-et-le-Signal-ISIS">quelques cours</a> à l'Université de Bordeaux.
-            J'ai alors obtenu un diplôme d'ingénieur en télécommunications, et une maîtrise en Ingénierie des Systèmes pour l'Image et le Signal.
-        </p>
-    </section>
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
 
-    <section id="research">
-        <h2>🔭 Mes recherches 📡</h2>
-        <p>
-            En ce moment, je travaille sur des modèles positifs. Par modèle, j'entends ici une densité de probabilité continue. C'est-à-dire une fonction définie en tout point par des valeurs supérieures à 0 et s'intégrant à 1 sur son ensemble de définition. L'objectif est d'utiliser ces densités comme <i>à priori</i> dans un <a href="https://www.cnil.fr/fr/definition/estimation-bayesienne">cadre bayésien</a>.
-            <br><br>
-            Le concept de positivité peut être appréhendé de deux manières. Tout d'abord, il peut caractériser des modèles se limitant exclusivement à la génération de pixels positifs, sans spécifier la répartition des pixels nuls éventuels. On parle alors de contrainte de positivité. D'autre part, il peut désigner un modèle contraignant les pixels à être positifs tout en assurant une certaine proportion de pixels à zéro. Dans ce cas, le terme utilisé est plutôt contrainte de non-négativité. Selon l'application envisagée, la possibilité d'introduire ces zones à zéro revêt une importance particulière. En imagerie, ces régions s'interprètent comme le fond de l'image entourant les objets d'intérêt.
-        </p>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
 
-    </section>
+      </div>
 
-    <section id="works">
-        <h2>📚 Travaux réalisés 📚</h2>
-        <ul>
-            <li>
-                Classification de neuroblastomes • Universidad de Deusto, eVida Lab. • 2023
-                <br>
-                avec M. Brassart et B. García-Zapirain
-                <br>
-                <a target="_blank" href="doc/neuroblastoma/draft_article.pdf">Article</a>
-                <a target="_blank" href="doc/neuroblastoma/report.pdf">Report</a>
-                <a target="_blank" href="doc/neuroblastoma/slide_master.pdf">Slide 1</a>
-                <a target="_blank" href="doc/neuroblastoma/slide_enseirb.pdf">Slide 2</a>
-            </li>
-            <li>
-                Présentation de MoodCat / OODFormer pour identifier des entrées hors distributions • ENSEIRB-MATEMCA • 2023
-                <br>
-                avec A. Valade
-                <br>
-                <a target="_blank" href="doc/OOD/slide.pdf">Slide</a>
-            </li>
-            <li>
-                Construction de jeu de données synthétique jour / nuit • ENSEIRB-MATEMCA • 2022
-                <br>
-                <a target="_blank" href="doc/DayNightDL/dataset.pdf">Report</a>
-                <a target="_blank" href="https://www.youtube.com/watch?v=Am5gSu4oZ_E">Video</a>
-            </li>
-            <li>
-                Présentation de K-Means / DBSCAN • ENSEIRB-MATMECA • 2022
-                <br>
-                avec M. Muller et B. Roulliaux
-                <br>
-                <a href="doc/KMeans_DBSCAN/code.zip">Code</a>
-                <a target="_blank" href="doc/KMeans_DBSCAN/slide.pdf">Slide</a>
-            </li>
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:pierre.minier@ims-bordeaux.fr" class="contact-link">pierre.minier@ims-bordeaux.fr</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Téléphone</p>
+
+              <a href="tel:+12133522795" class="contact-link">+33 [0]6 41 43 91 24</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Anniversaire</p>
+
+              <time datetime="2001-02-07">February 7, 2001</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Lieu</p>
+
+              <address>Talence, France</address>
+            </div>
+
+          </li>
+
         </ul>
-    </section>
 
-    <section id="curiosity">
-        <h2>🤔 Quelques curiosités ⁉️</h2>
-        <ul>
-            <li>
-                Comment définir la parité des fonctions multivariées ? Et surtout, peut-on retrouver la décomposition de toutes fonctions en somme de fonction paire et impaire ?
-            </li>
-            <li>
-                Une primitive de exp(-t^2)erf(at + b) selon t, avec a et b non nuls ?
-            </li>
-            <li>
-                Les intégrales de Borwein: <a href="https://en.wikipedia.org/wiki/Borwein_integral">lien wikipedia</a>.
-            </li>
-            <li>
-                La loi de Benford, dites des <i> nombres anormaux </i>: <a href="https://fr.wikipedia.org/wiki/Loi_de_Benford">lien wikipedia</a>.
-            </li>
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a target="_blank" href="https://github.com/p-minier" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a target="_blank" href="https://www.linkedin.com/in/p-minier" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a target="_blank" href="https://twitter.com/pierre_minier_" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a target="_blank" href="https://www.youtube.com/@pierreminier2695" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
         </ul>
-    </section>
 
-    <section id="contact">
-        <h2>📨 Contact 📨</h2>
-        <p>LinkdIn : <a href="https://www.linkedin.com/in/p-minier">www.linkedin.com/in/p-minier</a>
-        <br>
-        Mail : <a href="mailto:pierre.minier@ims-bordeaux.fr">pierre.minier@ims-bordeaux.fr</a></p>
-        <br><br>
-    </section>
+      </div>
 
-    <footer>
-        <p>Crédit photo: Andromeda Galaxy Imaged by Herschel, Planck, IRAS, COBE. NASA ID: PIA25163.</p>
-    </footer>
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>presentation</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>cv</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>production</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="presentation">
+
+        <header>
+          <h2 class="h2 article-title">Présentation</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Je suis doctorant en traitement du signal et de l'image à l'Université de Bordeaux, dans le laboratoire IMS (Intégration du Matériau au Système).
+          </p>
+            Mes encadrants sont Jean-François Giovannelli et François Orieux. Le sujet de ma thèse est <b>Déconvolution pour l'imagerie à haute résolution. Application en astronomie</b>. Ce travail s'inscrit dans le cadre du PEPR Origins autour de l'axe de recherche <i>Imagerie directe et caractérisation d’exoplanètes</i>.
+          <p>
+
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">Mes occupations</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Approche bayésienne</h4>
+
+                <p class="service-item-text">
+                  Les probabilités représentent des degrés de croyance, les paramètres sont modélisés par des lois de probabilité, et les observations ajustent la distribution.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Lois mutlivariées positives</h4>
+
+                <p class="service-item-text">
+                  Les lois de probabilités mutlivariées encodent une corrélation spatiale. On y ajoute une contrainte inégalitaire sur l'ensemble des pixels.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/teaching.svg" alt="teaching icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Enseignement</h4>
+
+                <p class="service-item-text">
+                  TP sous MatLab en statistiques et en traitement du signal.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-quote.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Représentant des doctorants</h4>
+
+                <p class="service-item-text">
+                  Elu représentant des doctorants au conseil de l'école doctorale SPI.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Affiliation</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a target="_blank" href="https://pepr-origins.fr/le-pepr-origins">
+                <img src="./assets/images/cnrs.svg" alt="CNRS" height="150">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a target="_blank" href="https://doctorat.u-bordeaux.fr/avant-le-doctorat/les-ecoles-doctorales/SPI">
+                <img src="./assets/images/ubx.svg" alt="Université de Bordeaux">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a target="_blank" href="https://www.ims-bordeaux.fr/research-groups/signal-and-image-processing/spectral">
+                <img src="./assets/images/ims.svg" alt="IMS">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="cv">
+
+        <header>
+          <h2 class="h2 article-title">cv</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Formation</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+
+                <h4 class="h4 timeline-item-title">Ecole Doctorale SPI</h4>
+
+                <span>2023 — aujourd'hui </span>
+
+                <p class="timeline-text">
+                    Inscrit à l'école doctorale des Sciences Physiques et de l'Ingénieur de l'Université de Bordeaux, dans la formation Automatique, Productique, Signal et Image, Ingénierie Cognitique.
+                </p>
+
+            </li>
+            <li class="timeline-item">
+
+                <h4 class="h4 timeline-item-title">Master ISC</h4>
+
+                <span>2022 — 2023</span>
+
+                <p class="timeline-text">
+                    Master Ingénierie des Systèmes Complexes, dans le parcours Ingénierie des Systèmes pour l'Image et le Signal. Mention Très Bien.
+                </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">ENSEIRB-MATMECA</h4>
+
+              <span>2020 — 2023</span>
+
+              <p class="timeline-text">
+                Diplôme d'Ingénieur en Télécommuncations, avec une spécialité en traitement du Signal et de l'Image. Mention Bien.
+              </p>
+
+            </li>
+
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Lycée Michel de Montaigne</h4>
+
+              <span>2018 — 2020</span>
+
+              <p class="timeline-text">
+                Classe préparatoire aux grandes écoles. Filière MPSI/MP (Mathématiques, Sciences Physiques, Sciences de l'Ingénieur).
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Expérience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Doctorant · Laboratoire IMS</h4>
+
+              <span>2023 — aujourd'hui</span>
+
+              <p class="timeline-text">
+                Thèse : Déconvolution pour l'imagerie à haute résolution. Application en astronomie.<br>
+                Mots clefs : déconvolution, imagerie, astronomie.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Stage · Laboratoire eVida</h4>
+
+              <span>2023 (5 mois)</span>
+
+              <p class="timeline-text">
+                Stage de fin d'étude au laboratoire eVida de l'Université de Deusto à Bilbao, pour entraîner des CNNs à classifier des images présentant différents stades de neuroblastomes.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Stage · Direction Générale de l'Armement</h4>
+
+              <span>2022 (3 mois)</span>
+
+              <p class="timeline-text">
+                Au sein d'une équipe d'optronique de la DGA.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+      </article>
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="production">
+
+        <header>
+          <h2 class="h2 article-title">production</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Article</button>
+            </li>
+
+
+            <li class="filter-item">
+              <button data-filter-btn>Note</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Presentation</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Video</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>Tout</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Article</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Presentation</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Note</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Logiciel</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="note">
+              <a target="_blank" href="assets/pdf/proba/irwinbates.pdf">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/irwinhall.png" alt="Irwin Hall & Bates" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Distribution de Irwin-Hall & Bates</h3>
+
+                <p class="project-category">Note</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="article">
+              <a target="_blank" href="assets/pdf/neuroblastoma/draft_article.pdf">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/neuroblastoma.jpg" alt="Neuroblastoma" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Neuroblastome</h3>
+
+                <p class="project-category">Article (non publié)</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="presentation">
+              <a target="_blank" href="assets/pdf/neuroblastoma/slide_enseirb.pdf">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/adaptive_cnn.jpg" alt="Adaptive CNN" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Adapter des CNNs</h3>
+
+                <p class="project-category">Présentation</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="presentation">
+              <a target="_blank" href="assets/pdf/neuroblastoma/slide_master.pdf">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/about_datasets.jpg" alt="About datasets" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Création de datasets</h3>
+
+                <p class="project-category">Présentation</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="presentation">
+              <a target="_blank" href="assets/pdf/ood/slide.pdf">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="assets/images/ood.png" alt="OOD" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Out Of Distribution</h3>
+
+                <p class="project-category">Présentation</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="video">
+              <a target="_blank" href="https://www.youtube.com/watch?v=vB3TLsy6ArY">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/daynight.png" alt="DayNight DL" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">DayNight DL</h3>
+
+                <p class="project-category">Vidéo</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="presentation">
+              <a target="_blank" href="assets/pdf/kmeansvsdbscan/slide.pdf">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/kmeansvsdbscan.png" alt="K-Means vs. DBSCAN" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">K-Means vs. DBSCAN</h3>
+
+                <p class="project-category">Présentation</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 </body>
+
 </html>
