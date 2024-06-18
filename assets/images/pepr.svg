@@ -2,137 +2,98 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="26.127615mm"
-   height="14.964732mm"
-   viewBox="0 0 26.127615 14.964732"
-   version="1.1"
-   id="svg1"
-   inkscape:version="1.3.1 (9b9bdc1480, 2023-11-25, custom)"
-   sodipodi:docname="pepr.svg"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   sodipodi:docname="pepr.svg">
+  <defs
+     id="defs2" />
   <sodipodi:namedview
-     id="namedview1"
-     pagecolor="#505050"
-     bordercolor="#eeeeee"
-     borderopacity="1"
-     inkscape:showpageshadow="0"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#d1d1d1"
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.3266964"
+     inkscape:cx="396.85039"
+     inkscape:cy="707.33869"
      inkscape:document-units="mm"
-     inkscape:zoom="1.1360799"
-     inkscape:cx="178.24451"
-     inkscape:cy="-36.529122"
+     inkscape:current-layer="g3723"
+     showgrid="false"
      inkscape:window-width="1600"
      inkscape:window-height="863"
      inkscape:window-x="0"
      inkscape:window-y="0"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
-  <defs
-     id="defs1">
-    <pattern
-       inkscape:collect="always"
-       xlink:href="#Tiles"
-       preserveAspectRatio="xMidYMid"
-       id="pattern34"
-       patternTransform="scale(0.2)" />
-    <pattern
-       patternUnits="userSpaceOnUse"
-       width="100"
-       height="100"
-       id="Tiles"
-       preserveAspectRatio="xMidYMid"
-       patternTransform="translate(0,0) scale(0.2,0.2)"
-       inkscape:collect="always"
-       style="fill:#a8cbfe"
-       inkscape:isstock="true"
-       inkscape:label="Tiles">
-      <g
-   id="g9422">
-        <rect
-   style="fill-opacity:1;stroke:none"
-   width="100"
-   height="100"
-   x="0"
-   y="0"
-   id="rect2996" />
-
-        <path
-   id="rect7383"
-   style="fill:#ffffff;fill-opacity:0.42487;stroke-width:0"
-   d="M 60,40 50,50 V 0 H 60 Z M 50,50 v 10 40 H 60 V 60 h 40 V 50 H 60 Z m 0,0 -10,10 H 0 V 50 Z" />
-
-        <path
-   id="rect7385"
-   style="fill:#000000;fill-opacity:0.300518;stroke-width:0"
-   d="M 40,60 50,50 v 50 H 40 Z M 100,40 V 50 H 50 L 60,40 Z M 40,0 V 40 H 0 V 50 H 40 50 V 40 0 Z" />
-
-      </g>
-
-    </pattern>
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath24">
-      <rect
-         style="fill:none;stroke:#000000;stroke-width:0.999999;stroke-linecap:butt;stroke-linejoin:bevel;paint-order:stroke markers fill;stop-color:#000000"
-         id="rect24"
-         width="44.999748"
-         height="77.937294"
-         x="251.53429"
-         y="222.73541" />
-    </clipPath>
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath5">
-      <path
-         id="path5"
-         style="stroke-width:0.1;stroke-linecap:square;paint-order:markers fill stroke;stop-color:#000000"
-         d="M 438.25066,553.76374 H 1298.1212 V 755.15928 H 438.25066 Z"
-         sodipodi:nodetypes="ccccc" />
-    </clipPath>
-    <linearGradient
-       id="swatch11"
-       inkscape:swatch="solid">
-      <stop
-         style="stop-color:#000000;stop-opacity:1;"
-         offset="0"
-         id="stop12" />
-    </linearGradient>
-    <linearGradient
-       id="swatch6"
-       inkscape:swatch="solid">
-      <stop
-         style="stop-color:#0001fb;stop-opacity:1;"
-         offset="0"
-         id="stop7" />
-    </linearGradient>
-  </defs>
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-57.810224,-83.30639)">
-    <text
-       xml:space="preserve"
-       style="font-size:8.46667px;font-family:Sawasdee;-inkscape-font-specification:Sawasdee;text-align:center;word-spacing:0px;text-anchor:middle;opacity:0.823345;fill:url(#pattern34);fill-opacity:1;stroke:#fff7f7;stroke-width:0"
-       x="70.845093"
-       y="85.295715"
-       id="text1"><tspan
-         sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;font-family:'padmaa-Bold.1.1';-inkscape-font-specification:'padmaa-Bold.1.1';text-align:center;word-spacing:0px;text-anchor:middle;fill:url(#pattern34);fill-opacity:1;stroke-width:0"
-         x="70.845093"
-         y="85.295715"
-         id="tspan2"
-         dy="3.5999999">PEPR</tspan><tspan
-         sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;font-family:'padmaa-Bold.1.1';-inkscape-font-specification:'padmaa-Bold.1.1';text-align:center;word-spacing:0px;text-anchor:middle;fill:url(#pattern34);fill-opacity:1;stroke-width:0"
-         x="70.845093"
-         y="96.567863"
-         id="tspan3">Origins</tspan></text>
+     style="display:inline">
+    <g
+       id="g3723"
+       transform="matrix(0.03527778,0,0,-0.03527778,45.079954,131.34564)"
+       style="fill:#000000;stroke:none">
+      <path
+         id="path3713"
+         d="M 0,790 V 0 h 1915 1915 v 790 790 H 1915 0 Z m 714,505 c 3,-9 -12,-34 -38,-64 -92,-103 -135,-184 -162,-299 -14,-60 -14,-64 6,-89 26,-33 26,-73 0,-106 -20,-25 -20,-29 -5,-92 25,-109 82,-212 167,-301 26,-27 37,-46 32,-57 -33,-87 -215,155 -260,348 -10,41 -27,80 -41,96 -31,34 -31,88 1,118 16,15 28,43 36,84 23,118 89,244 176,334 41,44 77,55 88,28 z m 563,-96 c 57,-22 78,-41 69,-64 -7,-20 -31,-19 -96,6 -79,30 -202,24 -282,-13 -73,-34 -141,-97 -172,-160 l -26,-51 35,-39 c 30,-33 35,-45 35,-88 0,-43 -5,-56 -34,-87 l -34,-38 25,-48 c 33,-66 97,-128 168,-162 85,-42 204,-47 296,-12 68,26 93,23 87,-9 -4,-25 -80,-62 -155,-75 -177,-31 -378,74 -456,237 -21,44 -38,65 -65,79 -52,28 -85,81 -79,126 7,50 32,85 76,105 29,12 42,28 65,77 91,194 338,292 543,216 z m 627,-105 c 28,-28 14,-73 -27,-88 -25,-8 -69,36 -60,61 16,45 57,58 87,27 z m 734,4 c 21,-21 14,-66 -13,-84 -23,-15 -27,-15 -50,0 -27,18 -34,63 -13,84 15,15 61,15 76,0 z m -1389,-64 c 177,-52 239,-277 116,-422 -72,-85 -210,-111 -311,-59 -203,104 -185,404 28,478 66,23 100,23 167,3 z m 348,-104 c 7,-24 5,-24 45,0 52,31 68,27 68,-19 0,-36 -2,-39 -34,-45 -59,-11 -70,-35 -76,-154 l -5,-107 h -40 -40 l -3,173 -2,172 h 41 c 32,0 42,-4 46,-20 z m 311,-152 c -3,-189 -3,-189 -64,-174 l -24,6 v 170 170 h 45 45 z m 358,157 c 25,-19 44,-19 44,1 0,12 9,14 43,12 l 42,-3 3,-168 c 3,-196 -5,-236 -56,-288 -75,-74 -231,-60 -288,26 -15,23 -15,28 -3,36 36,23 60,22 89,-6 65,-62 160,-23 160,66 0,43 -3,45 -40,24 -65,-37 -165,-2 -200,70 -38,79 -14,185 52,225 40,24 125,27 154,5 z m 372,-157 c -3,-189 -3,-189 -64,-174 l -24,6 v 164 c 0,89 3,166 7,169 3,4 24,7 45,7 h 38 z m 256,157 c 5,-14 9,-14 35,0 36,18 110,20 146,3 46,-21 55,-54 55,-198 V 610 h -45 -45 v 115 c 0,102 -2,117 -20,135 -22,22 -60,26 -90,10 -28,-15 -40,-65 -40,-165 0,-92 0,-93 -26,-98 -14,-2 -35,-2 -45,0 -18,5 -19,17 -19,167 0,90 3,166 7,169 13,14 81,7 87,-8 z m 595,-11 c 39,-33 40,-60 4,-67 -20,-4 -35,1 -49,15 -30,27 -88,22 -92,-8 -3,-22 -4,-22 100,-59 80,-28 112,-97 72,-154 -51,-72 -220,-66 -259,10 -16,30 -14,33 28,43 22,5 35,1 59,-19 23,-20 38,-25 57,-20 37,9 48,22 35,42 -12,20 -23,26 -89,49 -63,22 -95,54 -95,94 0,68 42,99 137,100 52,0 66,-4 92,-26 z M 308,828 c 15,-15 15,-61 0,-76 -20,-20 -56,-14 -74,13 -15,23 -15,27 0,50 18,27 54,33 74,13 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path3715"
+         d="m 450,790 c 0,-5 7,-10 15,-10 8,0 15,5 15,10 0,6 -7,10 -15,10 -8,0 -15,-4 -15,-10 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path3717"
+         d="m 678,838 c -27,-22 -30,-53 -7,-81 37,-49 109,-26 109,35 0,48 -63,76 -102,46 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path3719"
+         d="M 1095,956 C 993,912 957,768 1027,682 c 71,-87 189,-98 266,-24 42,39 57,75 57,132 0,57 -15,93 -57,132 -51,48 -133,62 -198,34 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path3721"
+         d="m 2159,851 c -17,-18 -29,-40 -29,-56 0,-69 63,-119 120,-95 66,27 81,101 31,151 -40,39 -82,39 -122,0 z"
+         inkscape:connector-curvature="0" />
+      <text
+         xml:space="preserve"
+         style="font-size:119.99999237px;line-height:1.25;font-family:Sawasdee;-inkscape-font-specification:Sawasdee;opacity:0.82334463;fill:#010187;stroke:#fff7f7;stroke-width:0"
+         x="1378.6938"
+         y="-263.52008"
+         id="text3741"
+         transform="scale(1,-1)"><tspan
+           sodipodi:role="line"
+           id="tspan3739"
+           x="1378.6938"
+           y="-263.52008"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:139.99998474px;font-family:Sawasdee;-inkscape-font-specification:'Sawasdee, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke-width:0">Programme et Equipement Prioritaire</tspan><tspan
+           sodipodi:role="line"
+           x="1378.6938"
+           y="-88.520096"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:139.99998474px;font-family:Sawasdee;-inkscape-font-specification:'Sawasdee, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke-width:0"
+           id="tspan3762">de Recherche</tspan></text>
+    </g>
   </g>
 </svg>
